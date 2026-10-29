@@ -1,7 +1,7 @@
 <?php
 // Database Connection
 $host = 'localhost';
-$db = 'it3a';
+$db = 'IT3a_lab_db';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
@@ -392,6 +392,9 @@ if($section === 'borrow'){
     <hr>
     <?php if($section=='students'): ?>
     <h1>Students</h1>
+     <p>
+        <a href="./../auth/signout.php">Logout</a>
+    </p>
         <p>
          <a href="index.php?section=students&action=create">
                 Add Student

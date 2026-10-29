@@ -7,7 +7,7 @@ require_once(__DIR__ . '/../functions/redirect.php');
 
 //define('', '');
 
-define('BASE_URL','http://localhost/IT3a_lab_db');
+define('BASE_URL','http://localhost/it3a');
 
 define('DB_HOST','localhost');
 define('DB_NAME','IT3a_lab_db');
