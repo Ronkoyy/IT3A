@@ -392,9 +392,6 @@ if($section === 'borrow'){
     <hr>
     <?php if($section=='students'): ?>
     <h1>Students</h1>
-     <p>
-        <a href="./../auth/signout.php">Logout</a>
-    </p>
         <p>
          <a href="index.php?section=students&action=create">
                 Add Student
@@ -794,6 +791,8 @@ if($section === 'borrow'){
             </tbody>
         </table>
     <?php endif; ?>
+
+    <a href="../auth/signout.php">Sign out</a>
 
 </body>
 <?php if (isset($_SESSION['alert'])): ?>
